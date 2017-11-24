@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>vue 测试</title>
+    <script src="../../static/js/require.js" data-main="../../static/js/main"></script>
+    <script src="../../static/js/helloworld/index.js"></script>
+</head>
+<body>
+    <div id="app-1">
+        {{ message }}
+    </div>
+
+    <div id="app-2">
+      <span v-bind:title="message">
+        鼠标悬停几秒钟查看此处动态绑定的提示信息！
+      </span>
+    </div>
+</body>
+</html>
